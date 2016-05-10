@@ -1,4 +1,4 @@
-
+  board=[" "," "," "," "," "," "," "," "," "]
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -8,6 +8,7 @@ def display_board(board)
 end
 
 # code your move method here!
-def move(number,position,character)
-    puts 
+def move(board, position, value="x")
+board[position] = value
 end
+
